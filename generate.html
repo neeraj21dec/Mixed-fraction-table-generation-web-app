@@ -1,0 +1,75 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+
+<body background="bg.jpg" style="background-repeat: no-repeat;height: 100%;background-size:30000px 30000px;">
+ <nav class="navbar navbar-dark green" style="height:100px;">
+ <h1>Fill the requirements:</h1>
+     <div class="text-center">
+        <a href="login.jsp"><button class="btn btn-elegant">Logout</button></a>
+    </div>
+       
+</nav>  
+    
+<form style="border:2px solid;width:700px;margin:40px 400px;padding:10px;color:white;" action="welcome.jsp" method="get">
+   
+         <label>Enter the length of the list </label>
+        <input style="color:white;border: 2px solid white;"type="numbers" id="defaultForm-email" class="form-control" name="number">
+       
+		 <br/>
+		 <br/>
+		 
+		 <label>Enter the range for n1 and n2 </label>
+		<input style="color:white;border: 2px solid white;"type="numbers" id="defaultForm-email" class="form-control" name="range"> 
+		 <br/>
+		  <br/>
+		  
+		  
+		 <label>Select the operation</label>
+		  <select name="operation" class="navbar navbar-dark green" ">
+  <option value="mul">Multiplication</option>
+    <option value="div">Divide</option>
+	<option value="add">Addition</option>
+	<option value="sub">Subtraction</option>
+  
+ 
+</select>
+		 <br/>
+		  <br/>
+		
+		
+	
+   <input type ="submit" value="Generate sheet" class="btn btn-elegant" style="position:relative;left:40%;"/>
+   
+</form>
+
+                
+    
+    
+    
+    
+    
+    
+
+</body>
+
+</html>
